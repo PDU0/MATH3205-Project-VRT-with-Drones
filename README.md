@@ -8,28 +8,28 @@ This document is meant to provide a guide on how to use the code
 ## 1 Structure:
 
 46272784_45285714_MATH3205_Project:
--- Benders \n
----- BendersTestLog (A directory that stores plots and logs) \n
----- BendersV2.py (Code for the LBBD approch) \n
+-- Benders \
+---- BendersTestLog (A directory that stores plots and logs) \
+---- BendersV2.py (Code for the LBBD approch) \
 
--- MIP \n
----- MIPLazyTestLog (Another directory that stores plots and logs) \n
----- MIPTestLog (AAnother directory that stores plots and logs) \n
----- MIP.py (Code for the MIP approch) \n
----- MIPlazy.py (Code for the MIP with lazy GCS constraints) \n
+-- MIP \
+---- MIPLazyTestLog (Another directory that stores plots and logs) \
+---- MIPTestLog (AAnother directory that stores plots and logs) \
+---- MIP.py (Code for the MIP approch) \
+---- MIPlazy.py (Code for the MIP with lazy GCS constraints) \
 
--- test \n
----- testCases (A directory that contains all test sets) \n
----- load_test.py (Dataloader) \n
----- test.py (Code for batch testing) \n
+-- test \
+---- testCases (A directory that contains all test sets) \
+---- load_test.py (Dataloader) \
+---- test.py (Code for batch testing) \
 
--- Papers&PPT \n
----- An_Exact_Algorithm_for_Heterogeneous_Drone-TruckRouting_Problem.pdf \n
----- MT1.pdf (The PowerPoint on the above paper.) \n
+-- Papers&PPT \
+---- An_Exact_Algorithm_for_Heterogeneous_Drone-TruckRouting_Problem.pdf \
+---- MT1.pdf (The PowerPoint on the above paper.) \
 
--- 46272784_45285714_MATH3205_FINAL_REPORT.pdf (Our final report) \n
+-- 46272784_45285714_MATH3205_FINAL_REPORT.pdf (Our final report) \
 
--- README.md (You are reading it) \n
+-- README.md (You are reading it) \
 
 ## 2 Instruction:
 Please DO NOT add / remove any file / directory.
