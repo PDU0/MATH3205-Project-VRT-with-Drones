@@ -7,7 +7,7 @@ This document is meant to provide a guide on how to use the code
 
 ## 1 Structure:
 
-46272784_45285714_MATH3205_Project:
+46272784_45285714_MATH3205_Project:\
 -- Benders \
 ---- BendersTestLog (A directory that stores plots and logs) \
 ---- BendersV2.py (Code for the LBBD approch) \
