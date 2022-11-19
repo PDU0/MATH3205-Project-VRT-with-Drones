@@ -26,12 +26,7 @@ CUTOPTI = 0
 
 def BendersV2(test, name, time_limit, CWD, param='new'):
     # Benders approch
-    
     global CUTGCS, CUTFEAS, CUTOPTI
-    
-    testPath = CWD + r'\test'
-    sys.path.insert(1, testPath)
-    from load_test import load_test
     
     t = {'ph': None,
          'tr': None,
@@ -822,8 +817,9 @@ def BendersV2(test, name, time_limit, CWD, param='new'):
 
 def main(): # If you want batch testing, go to test.py
     ######## Please change ###################################################
-    CWD = r'C:\Users\Loong\OneDrive\Year3-Semester2\MATH3205\46272784_45285714_MATH3205_Project'
+    CWD = r'YOUR/WORKING/DIR'
     ##########################################################################
+    TestDir = CWD + r'\test\testCases'
     testPath = CWD + r'\test'
     sys.path.insert(1, testPath)
     from load_test import load_test
@@ -832,7 +828,7 @@ def main(): # If you want batch testing, go to test.py
     timeLimit = 3600
     ##### Find a test, and change me #########################################
     name = 'P-n16-k8'
-    test = load_test('P')[name]
+    test = load_test('P', TestDir)[name]
     ##########################################################################
     t0 = time.time()
     t,_,_,_,_ = BendersV2(test, name, timeLimit, CWD)
