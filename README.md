@@ -12,11 +12,11 @@ This document is meant to provide a guide on how to use the code
 - - BendersTestLog (A directory that stores plots and logs)
 - - BendersV2.py (Code for the LBBD approch)
 
-- MIP
-- - MIPLazyTestLog (Another directory that stores plots and logs)
-- - MIPTestLog (AAnother directory that stores plots and logs)
-- - MIP.py (Code for the MIP approch)
-- - MIPlazy.py (Code for the MIP with lazy GCS constraints)
+-- MIP
+---- MIPLazyTestLog (Another directory that stores plots and logs)
+---- MIPTestLog (AAnother directory that stores plots and logs)
+---- MIP.py (Code for the MIP approch)
+---- MIPlazy.py (Code for the MIP with lazy GCS constraints)
 
 - test
 - - testCases (A directory that contains all test sets)
