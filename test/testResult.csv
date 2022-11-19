@@ -1,0 +1,2 @@
+Name,MIP Time,MIP objVal,MIPLazy Time,MIPLazy objVal,# GCS Cuts,Primal Heuristic,Truck Route,WLow,Benders,Benders Time,Benders objVal,# GCS Cuts,# Feas Cut,# Opti Cut
+P-n16-k8,1.8441,151.02,7.8757,151.02,195,0.2236,0.8892,2.4745,5.3082,8.8956,151.02,131,0,26
